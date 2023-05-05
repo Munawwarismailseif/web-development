@@ -1,0 +1,71 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width:800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+#my-image{
+    width: 40%;
+    height: 40%;
+}
+
+h1 {
+    text-align:center;
+    color:dodgerblue;
+}
+
+h2 {
+    text-align: left;
+    color: lightseagreen;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+#personal-info,
+#education,
+#experience,
+#skills,
+#proffesional-courses,
+#projects,
+#dependents:hover, 
+#management-experience:hover{ 
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    padding: 10px;
+    cursor: pointer;
+}
+
+#personal-info:hover,
+#Education:hover,
+#experience:hover,
+#skills:hover,
+#professional-courses:hover,
+#projects:hover,
+#dependents:hover, 
+#management-experience:hover{
+    background-color: rgb(207, 247, 181);
+}
+
+
+.view-details {
+    cursor: pointer;
+    text-decoration: underline;
+    display: block;
+}
+
+
+ 
+
